@@ -8,14 +8,19 @@
  */
 int main(void)
 {
-	for (char c = 'a';	c <= 'z';	c++)
+	char lower = 'a';
+	char higher = 'A';
+
+	while (lower <= 'z')
 	{
-		putchar(c);
+		putchar(lower);
+		lower++;
 	}
 
-	for (char c = 'A';	c <= 'Z';	c++)
+	while (higher <= 'Z')
 	{
-		putchar(c);
+		putchar(higher);
+		higher++;
 	}
 	putchar('\n');
 	return (0);
