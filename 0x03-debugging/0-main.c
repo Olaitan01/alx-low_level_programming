@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
  * main - returns a negative or  positive
  * if integer is either negative or positive
  *
  * Return: Always 0
  */
-
 int main(void)
 {
 	int i;
