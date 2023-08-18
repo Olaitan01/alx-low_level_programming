@@ -1,7 +1,6 @@
 #include <stdio.h>
-
 /**
- * main - print range 1 - 100 and fizzbuzz
+ * main - print 1 - 100 and fizzbuzz
  * Return: 0
  */
 int main(void)
